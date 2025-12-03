@@ -254,114 +254,145 @@
   </div>
 
   <!-- EVENT CARD STYLES -->
-  <style>
-    .event-card {
-      padding: 1rem;
-      border-radius: 0.75rem;
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(8px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      transition: 0.3s;
-    }
-    .event-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
-    }
-    .activeTab {
-      background: rgba(37, 99, 235, 0.25);
-      border-color: rgba(37, 99, 235, 0.6);
-    }
-  </style>
+<style>
+  .event-card {
+    padding: 1rem;
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+  }
+  .event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  }
+  .activeTab {
+    background: rgba(37, 99, 235, 0.25);
+    border-color: rgba(37, 99, 235, 0.6);
+  }
+</style>
 
-  <!-- TAB CONTENT CONTAINER -->
-  <div class="max-w-6xl mx-auto">
+<!-- TAB CONTENT CONTAINER -->
+<div class="max-w-6xl mx-auto">
 
-    <!-- TECHNICAL TAB -->
-    <div id="technical" class="tabContent grid grid-cols-1 md:grid-cols-2 gap-6">
+  <!-- TECHNICAL TAB -->
+  <div id="technical" class="tabContent grid grid-cols-1 md:grid-cols-2 gap-6">
 
-      <h3 class="col-span-full font-display text-3xl text-white mb-2 text-glow">Technical Events</h3>
+    <h3 class="col-span-full font-display text-3xl text-white mb-2 text-glow">Technical Events</h3>
 
-      <!-- DAY 1 -->
-      <h4 class="col-span-full text-xl font-semibold text-[var(--primary)]">Day 1 — Dec 10</h4>
+    <!-- DAY 1 -->
+    <h4 class="col-span-full text-xl font-semibold text-[var(--primary)]">Day 1 — Dec 10</h4>
 
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 1:00 PM</p><h5 class="text-white font-semibold">Building Chatbot using AI</h5><p class="text-white/70 text-sm">ACM</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 1:00 PM</p><h5 class="text-white font-semibold">Data Visualization</h5><p class="text-white/70 text-sm">ACM</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">1:30 PM – 4:30 PM</p><h5 class="text-white font-semibold">Computer Vision</h5><p class="text-white/70 text-sm">ACM</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 4:30 PM</p><h5 class="text-white font-semibold">Drone Day 1</h5><p class="text-white/70 text-sm">IEEE</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">Designathon</h5><p class="text-white/70 text-sm">ACM</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">12:30 PM – 2:00 PM</p><h5 class="text-white font-semibold">Tech Escape Room</h5><p class="text-white/70 text-sm">ACM</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">2:30 PM – 4:00 PM</p><h5 class="text-white font-semibold">AI Innovate</h5><p class="text-white/70 text-sm">ACM</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">UI/UX Workshop</h5><p class="text-white/70 text-sm">GDG</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">1:00 PM – 3:30 PM</p><h5 class="text-white font-semibold">Bug Bounty 2.0</h5><p class="text-white/70 text-sm">GDG</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Competitive Programming</h5><p class="text-white/70 text-sm">CSI</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">1:00 PM – 3:30 PM</p><h5 class="text-white font-semibold">Reverse Coding</h5><p class="text-white/70 text-sm">CSI</p></div>
+    <!-- ACM -->
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">Tech Escape Room</h5><p class="text-white/70 text-sm">ACM</p></div>
+    <div class="event-card"><p class="text-blue-300 text-sm">12:30 PM – 2:00 PM</p><h5 class="text-white font-semibold">AI Innovate</h5><p class="text-white/70 text-sm">ACM</p></div>
+    <div class="event-card"><p class="text-blue-300 text-sm">2:30 PM – 4:00 PM</p><h5 class="text-white font-semibold">Bug Bash – Coding w/ Headphones</h5><p class="text-white/70 text-sm">ACM</p></div>
 
-      <!-- DAY 3 -->
-      <h4 class="col-span-full text-xl font-semibold text-[var(--primary)] mt-8">Day 3 — Dec 12</h4>
+    <!-- IEEE -->
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Drone Day 1</h5><p class="text-white/70 text-sm">IEEE</p></div>
 
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Build Your AI Model</h5><p class="text-white/70 text-sm">ACM</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Mastering DevOps</h5><p class="text-white/70 text-sm">External</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Drone Day 2</h5><p class="text-white/70 text-sm">IEEE</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Art of Film Making</h5><p class="text-white/70 text-sm">ACM</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Smart Investment</h5><p class="text-white/70 text-sm">External</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">Bug Bash</h5><p class="text-white/70 text-sm">ACM</p></div>
-      <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">AI Prompt Showdown</h5><p class="text-white/70 text-sm">GDG</p></div>
-    </div>
+    <!-- GDG -->
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">AI Prompt Showdown</h5><p class="text-white/70 text-sm">GDG</p></div>
+    <div class="event-card"><p class="text-blue-300 text-sm">1:00 PM – 2:30 PM</p><h5 class="text-white font-semibold">Bug Bounty 2.0</h5><p class="text-white/70 text-sm">GDG</p></div>
 
-    <!-- CULTURAL TAB -->
-    <div id="cultural" class="tabContent hidden grid grid-cols-1 md:grid-cols-2 gap-6">
-      <h3 class="col-span-full font-display text-3xl text-white mb-2 text-glow">Cultural Events</h3>
+    <!-- CSI -->
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">Tech Traitor</h5><p class="text-white/70 text-sm">CSI</p></div>
+    <div class="event-card"><p class="text-blue-300 text-sm">12:30 PM – 2:00 PM</p><h5 class="text-white font-semibold">CSI Bigg Byte House</h5><p class="text-white/70 text-sm">CSI</p></div>
 
-      <h4 class="col-span-full text-xl font-semibold text-[var(--primary)]">Day 2 — Traditional Day</h4>
+    <!-- CIVIL -->
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Structure Scramble Treasure Hunt</h5><p class="text-white/70 text-sm">Civil</p></div>
+    <div class="event-card"><p class="text-blue-300 text-sm">1:00 PM – 3:30 PM</p><h5 class="text-white font-semibold">Bridgeathon</h5><p class="text-white/70 text-sm">Civil</p></div>
 
-      <div class="event-card"><h5 class="text-white font-semibold">Fashion Thrift Flip</h5><p class="text-white/70 text-sm">60 participants</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Open Mic</h5><p class="text-white/70 text-sm">60 participants</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Dance Competition</h5><p class="text-white/70 text-sm">60 participants</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Short Advertisement Making</h5><p class="text-white/70 text-sm">30 participants</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Music Battle</h5><p class="text-white/70 text-sm">50 participants</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Debate</h5><p class="text-white/70 text-sm">40 entries</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Food Fest</h5><p class="text-white/70 text-sm">40 entries</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Treasure Hunt</h5><p class="text-white/70 text-sm">60 entries</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Mandala Art Competition</h5><p class="text-white/70 text-sm">60 entries</p></div>
+    <!-- BCA / MCA -->
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">Rapid Fire – Tech Edition</h5><p class="text-white/70 text-sm">BCA/MCA</p></div>
+    <div class="event-card"><p class="text-blue-300 text-sm">12:00 PM – 1:30 PM</p><h5 class="text-white font-semibold">Debug Arena</h5><p class="text-white/70 text-sm">BCA/MCA</p></div>
+    <div class="event-card"><p class="text-blue-300 text-sm">2:00 PM – 4:00 PM</p><h5 class="text-white font-semibold">Emoji Story (IT Edition)</h5><p class="text-white/70 text-sm">BCA/MCA</p></div>
 
-      <h4 class="col-span-full text-xl font-semibold text-[var(--primary)] mt-8">Day 3</h4>
+    <!-- DAY 3 -->
+    <h4 class="col-span-full text-xl font-semibold text-[var(--primary)] mt-8">Day 3 — Dec 12</h4>
 
-      <div class="event-card"><h5 class="text-white font-semibold">Morning Rave</h5><p class="text-white/70 text-sm">12:00 PM Onwards</p></div>
-    </div>
+    <!-- Technical Day-3 -->
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Build Your AI Model</h5><p class="text-white/70 text-sm">ACM</p></div>
 
-    <!-- LAW TAB -->
-    <div id="law" class="tabContent hidden grid grid-cols-1 md:grid-cols-2 gap-6">
-      <h3 class="col-span-full font-display text-3xl text-white mb-2 text-glow">Law School</h3>
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Mastering DevOps</h5><p class="text-white/70 text-sm">External</p></div>
 
-      <h4 class="col-span-full text-xl font-semibold text-[var(--primary)]">Day 1</h4>
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Drone Day 2</h5><p class="text-white/70 text-sm">IEEE</p></div>
 
-      <div class="event-card"><h5 class="text-white font-semibold">Workshop Drafting</h5><p class="text-white/70 text-sm">10:00 AM – 4:00 PM</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Case Law Treasure Hunt</h5><p class="text-white/70 text-sm">10:00 AM – 12:30 PM</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Client Counselling</h5><p class="text-white/70 text-sm">1:00 PM – 3:30 PM</p></div>
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Art of Film Making</h5><p class="text-white/70 text-sm">Workshop</p></div>
 
-      <h4 class="col-span-full text-xl font-semibold text-[var(--primary)] mt-8">Day 3</h4>
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:30 PM</p><h5 class="text-white font-semibold">Smart Investment</h5><p class="text-white/70 text-sm">External</p></div>
 
-      <div class="event-card"><h5 class="text-white font-semibold">Bollywood Moot Court</h5><p class="text-white/70 text-sm">10:00 AM – 12:00 PM</p></div>
-    </div>
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">Bug Bash (Team Coding)</h5><p class="text-white/70 text-sm">ACM</p></div>
 
-    <!-- MANAGEMENT TAB -->
-    <div id="management" class="tabContent hidden grid grid-cols-1 md:grid-cols-2 gap-6">
-      <h3 class="col-span-full font-display text-3xl text-white mb-2 text-glow">Management Events</h3>
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">AI Prompt Showdown</h5><p class="text-white/70 text-sm">GDG</p></div>
 
-      <h4 class="col-span-full text-xl font-semibold text-[var(--primary)]">Day 1</h4>
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">Mystery Coding — Guess the Function</h5><p class="text-white/70 text-sm">CSI</p></div>
 
-      <div class="event-card"><h5 class="text-white font-semibold">Brain Twister</h5><p class="text-white/70 text-sm">MBA/BBA — 10:00 AM – 12:00 PM</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Tehkikaat</h5><p class="text-white/70 text-sm">MBA/BBA — 12:00 PM – 1:30 PM</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Mock Shark Tank</h5><p class="text-white/70 text-sm">BCOM — 10:00 AM – 12:00 PM</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Brand War</h5><p class="text-white/70 text-sm">BCOM — 12:00 PM – 1:30 PM</p></div>
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">3D CAD Design Sprint</h5><p class="text-white/70 text-sm">IEEE</p></div>
 
-      <h4 class="col-span-full text-xl font-semibold text-[var(--primary)] mt-8">Day 3</h4>
-
-      <div class="event-card"><h5 class="text-white font-semibold">JAM</h5><p class="text-white/70 text-sm">MBA/BBA — 10:00 AM – 12:00 PM</p></div>
-      <div class="event-card"><h5 class="text-white font-semibold">Budget Battle</h5><p class="text-white/70 text-sm">BCOM — 10:00 AM – 12:00 PM</p></div>
-    </div>
+    <div class="event-card"><p class="text-blue-300 text-sm">10:00 AM – 12:00 PM</p><h5 class="text-white font-semibold">Structural Scramble Treasure Hunt</h5><p class="text-white/70 text-sm">Civil</p></div>
 
   </div>
+
+  <!-- CULTURAL TAB -->
+  <div id="cultural" class="tabContent hidden grid grid-cols-1 md:grid-cols-2 gap-6">
+    <h3 class="col-span-full font-display text-3xl text-white mb-2 text-glow">Cultural Events</h3>
+
+    <h4 class="col-span-full text-xl font-semibold text-[var(--primary)]">Day 2 — Traditional Day</h4>
+
+    <div class="event-card"><h5 class="text-white font-semibold">Open Mic</h5><p class="text-white/70 text-sm">9:45 AM – 10:30 AM</p></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Short Advertisement Making</h5><p class="text-white/70 text-sm">Ad-a-Kazam</p></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Debate</h5><p class="text-white/70 text-sm">Tark</p></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Treasure Hunt</h5></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Art & Craft Exhibition + Stone Painting</h5><p class="text-white/70 text-sm">Chitralekha</p></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Bollywood Moot Court</h5></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Poetry Competition</h5></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Tattoo Making</h5></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Music Battle</h5><p class="text-white/70 text-sm">11:30 AM Onwards</p></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Dance Competition</h5></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Fashion Thrift Flip</h5></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Food Stalls</h5></div>
+
+    <h4 class="col-span-full text-xl font-semibold text-[var(--primary)] mt-8">Day 3</h4>
+
+    <div class="event-card"><h5 class="text-white font-semibold">Morning Rave</h5><p class="text-white/70 text-sm">12:00 PM Onwards</p></div>
+  </div>
+
+  <!-- LAW TAB -->
+  <div id="law" class="tabContent hidden grid grid-cols-1 md:grid-cols-2 gap-6">
+    <h3 class="col-span-full font-display text-3xl text-white mb-2 text-glow">Law School</h3>
+
+    <h4 class="col-span-full text-xl font-semibold text-[var(--primary)]">Day 1</h4>
+
+    <div class="event-card"><h5 class="text-white font-semibold">Case Law Treasure Hunt</h5><p class="text-white/70 text-sm">10:00 AM – 12:30 PM</p></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Client Counselling – Legal Role Play</h5><p class="text-white/70 text-sm">1:00 PM – 3:30 PM</p></div>
+
+    <h4 class="col-span-full text-xl font-semibold text-[var(--primary)] mt-8">Day 2</h4>
+
+    <div class="event-card"><h5 class="text-white font-semibold">Bollywood Moot Court</h5><p class="text-white/70 text-sm">Traditional Day</p></div>
+  </div>
+
+  <!-- MANAGEMENT TAB -->
+  <div id="management" class="tabContent hidden grid grid-cols-1 md:grid-cols-2 gap-6">
+    <h3 class="col-span-full font-display text-3xl text-white mb-2 text-glow">Management Events</h3>
+
+    <h4 class="col-span-full text-xl font-semibold text-[var(--primary)]">Day 1</h4>
+
+    <div class="event-card"><h5 class="text-white font-semibold">Brain Twister</h5><p class="text-white/70 text-sm">MBA/BBA — 10:00 AM – 12:00 PM</p></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Tehkikaat (Case Study Competition)</h5><p class="text-white/70 text-sm">MBA/BBA — 12:00 PM – 1:30 PM</p></div>
+
+    <div class="event-card"><h5 class="text-white font-semibold">Mock Shark Tank</h5><p class="text-white/70 text-sm">BCOM — 10:00 AM – 12:00 PM</p></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Brand War (Battle of Brands)</h5><p class="text-white/70 text-sm">BCOM — 12:00 PM – 1:30 PM</p></div>
+
+    <h4 class="col-span-full text-xl font-semibold text-[var(--primary)] mt-8">Day 3</h4>
+
+    <div class="event-card"><h5 class="text-white font-semibold">JAM (Just A Minute)</h5><p class="text-white/70 text-sm">MBA/BBA — 10:00 AM – 12:00 PM</p></div>
+    <div class="event-card"><h5 class="text-white font-semibold">Budget Battle</h5><p class="text-white/70 text-sm">BCOM — 10:00 AM – 12:00 PM</p></div>
+  </div>
+
+</div>
+
 
 </section>
 
@@ -717,256 +748,301 @@
         </div>
       </div>
 
-      <!-- EVENT SELECTION ACCORDION -->
-      <div class="mt-4">
-        <h3 class="text-xl font-semibold text-white mb-4 text-glow">Select Your Event(s)</h3>
+     <!-- EVENT SELECTION ACCORDION -->
+<div class="mt-4">
+  <h3 class="text-xl font-semibold text-white mb-4 text-glow">Select Your Event(s)</h3>
 
-        <div class="space-y-4">
+  <div class="space-y-4">
 
-          <!-- TECHNICAL GROUP -->
-          <div class="event-group bg-white/5 border border-white/10 rounded-lg overflow-hidden">
-            <button type="button"
-              class="w-full flex justify-between items-center px-4 py-3 text-left text-white text-lg font-semibold
-              bg-white/5 hover:bg-white/10 transition groupBtn">
-              Technical Events <span class="text-white/60">▼</span>
-            </button>
-
-            <div class="hidden px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-4 groupContent">
-
-              <!-- Day 1 -->
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Building Chatbot using AI">
-                <span class="text-white text-sm">Building Chatbot using AI (ACM)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Data Visualization">
-                <span class="text-white text-sm">Data Visualization (ACM)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Computer Vision">
-                <span class="text-white text-sm">Computer Vision (ACM)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Drone Day 1">
-                <span class="text-white text-sm">Drone Day 1 (IEEE)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Designathon">
-                <span class="text-white text-sm">Designathon (ACM)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Tech Escape Room">
-                <span class="text-white text-sm">Tech Escape Room (ACM)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="AI Innovate">
-                <span class="text-white text-sm">AI Innovate (ACM)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="UI/UX Workshop">
-                <span class="text-white text-sm">UI/UX Workshop (GDG)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Bug Bounty 2.0">
-                <span class="text-white text-sm">Bug Bounty 2.0 (GDG)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Competitive Programming">
-                <span class="text-white text-sm">Competitive Programming (CSI)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Reverse Coding">
-                <span class="text-white text-sm">Reverse Coding (CSI)</span>
-              </label>
-
-              <!-- Day 3 -->
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Build Your AI Model">
-                <span class="text-white text-sm">Build Your AI Model (ACM)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Mastering DevOps">
-                <span class="text-white text-sm">Mastering DevOps (External)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Drone Day 2">
-                <span class="text-white text-sm">Drone Day 2 (IEEE)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Art of Film Making">
-                <span class="text-white text-sm">Art of Film Making (ACM)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Smart Investment">
-                <span class="text-white text-sm">Smart Investment (External)</span>
-              </label>
-
-            </div>
-          </div>
-
-          <!-- CULTURAL EVENTS -->
-          <div class="event-group bg-white/5 border border-white/10 rounded-lg overflow-hidden">
-            <button type="button"
-              class="w-full flex justify-between items-center px-4 py-3 text-left text-white text-lg font-semibold
-              bg-white/5 hover:bg-white/10 transition groupBtn">
-              Cultural Events <span class="text-white/60">▼</span>
-            </button>
-
-            <div class="hidden px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-4 groupContent">
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Fashion Thrift Flip">
-                <span class="text-white text-sm">Fashion Thrift Flip</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Open Mic">
-                <span class="text-white text-sm">Open Mic</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Dance Competition">
-                <span class="text-white text-sm">Dance Competition</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Short Advertisement Making">
-                <span class="text-white text-sm">Short Advertisement Making</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Music Battle">
-                <span class="text-white text-sm">Music Battle</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Debate">
-                <span class="text-white text-sm">Debate</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Food Fest">
-                <span class="text-white text-sm">Food Fest</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Treasure Hunt">
-                <span class="text-white text-sm">Treasure Hunt</span>
-              </label>
-
-              <!-- DAY 3 -->
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Morning Rave">
-                <span class="text-white text-sm">Morning Rave</span>
-              </label>
-
-            </div>
-          </div>
-
-          <!-- LAW GROUP -->
-          <div class="event-group bg-white/5 border border-white/10 rounded-lg overflow-hidden">
-            <button type="button"
-              class="w-full flex justify-between items-center px-4 py-3 text-left text-white text-lg font-semibold
-              bg-white/5 hover:bg-white/10 transition groupBtn">
-              Law School Events <span class="text-white/60">▼</span>
-            </button>
-
-            <div class="hidden px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-4 groupContent">
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Workshop Drafting">
-                <span class="text-white text-sm">Workshop Drafting (LAW)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Case Law Treasure Hunt">
-                <span class="text-white text-sm">Case Law Treasure Hunt (LAW)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Client Counselling">
-                <span class="text-white text-sm">Client Counselling (LAW)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Bollywood Moot Court">
-                <span class="text-white text-sm">Bollywood Moot Court</span>
-              </label>
-
-            </div>
-          </div>
-
-          <!-- MANAGEMENT GROUP -->
-          <div class="event-group bg-white/5 border border-white/10 rounded-lg overflow-hidden">
-            <button type="button"
-              class="w-full flex justify-between items-center px-4 py-3 text-left text-white text-lg font-semibold
-              bg-white/5 hover:bg-white/10 transition groupBtn">
-              Management Events <span class="text-white/60">▼</span>
-            </button>
-
-            <div class="hidden px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-4 groupContent">
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Brain Twister">
-                <span class="text-white text-sm">Brain Twister (MBA/BBA)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Tehkikaat">
-                <span class="text-white text-sm">Tehkikaat (MBA/BBA)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Mock Shark Tank">
-                <span class="text-white text-sm">Mock Shark Tank (BCOM)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Brand War">
-                <span class="text-white text-sm">Brand War (BCOM)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="JAM">
-                <span class="text-white text-sm">JAM (MBA/BBA)</span>
-              </label>
-
-              <label class="flex items-center gap-3 event-card">
-                <input type="checkbox" name="events[]" value="Budget Battle">
-                <span class="text-white text-sm">Budget Battle (BCOM)</span>
-              </label>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <button type="submit"
-        class="w-full flex justify-center py-3 px-4 rounded-lg bg-[var(--primary)] text-white text-sm font-bold tracking-wide
-        hover:bg-blue-500 transition-all box-glow mt-4">
-        Register
+    <!-- TECHNICAL GROUP -->
+    <div class="event-group bg-white/5 border border-white/10 rounded-lg overflow-hidden">
+      <button type="button"
+        class="w-full flex justify-between items-center px-4 py-3 text-left text-white text-lg font-semibold
+        bg-white/5 hover:bg-white/10 transition groupBtn">
+        Technical Events <span class="text-white/60">▼</span>
       </button>
 
-    </form>
+      <div class="hidden px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-4 groupContent">
 
-    <p id="formMsg" class="mt-4 text-sm text-white/70 hidden"></p>
+        <!-- DAY 1 (All Technical Events) -->
+
+        <!-- ACM -->
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Tech Escape Room">
+          <span class="text-white text-sm">Tech Escape Room (ACM)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="AI Innovate">
+          <span class="text-white text-sm">AI Innovate (ACM)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Bug Bash — Team Coding">
+          <span class="text-white text-sm">Bug Bash — Team Coding (ACM)</span>
+        </label>
+
+        <!-- IEEE -->
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Drone Day 1">
+          <span class="text-white text-sm">Drone Day 1 (IEEE)</span>
+        </label>
+
+        <!-- GDG -->
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="AI Prompt Showdown Day 1">
+          <span class="text-white text-sm">AI Prompt Showdown (GDG)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Bug Bounty 2.0">
+          <span class="text-white text-sm">Bug Bounty 2.0 (GDG)</span>
+        </label>
+
+        <!-- CSI -->
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Tech Traitor">
+          <span class="text-white text-sm">Tech Traitor (CSI)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="CSI Bigg Byte House">
+          <span class="text-white text-sm">CSI Bigg Byte House (CSI)</span>
+        </label>
+
+        <!-- Civil -->
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Structure Scramble">
+          <span class="text-white text-sm">Structure Scramble Treasure Hunt (Civil)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Bridgeathon">
+          <span class="text-white text-sm">Bridgeathon (Civil)</span>
+        </label>
+
+        <!-- BCA/MCA -->
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Rapid Fire Tech Edition">
+          <span class="text-white text-sm">Rapid Fire – Tech Edition (BCA/MCA)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Debug Arena">
+          <span class="text-white text-sm">Debug Arena (BCA/MCA)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Emoji Story IT Edition">
+          <span class="text-white text-sm">Emoji Story – IT Edition (BCA/MCA)</span>
+        </label>
+
+        <!-- DAY 3 TECHNICAL -->
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Build Your AI Model">
+          <span class="text-white text-sm">Build Your AI Model (ACM)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Mastering DevOps">
+          <span class="text-white text-sm">Mastering DevOps (External)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Drone Day 2">
+          <span class="text-white text-sm">Drone Day 2 (IEEE)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Art of Film Making">
+          <span class="text-white text-sm">Art of Film Making (Workshop)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Smart Investment">
+          <span class="text-white text-sm">Smart Investment (External)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Bug Bash Day 3">
+          <span class="text-white text-sm">Bug Bash (ACM)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="AI Prompt Showdown Day 3">
+          <span class="text-white text-sm">AI Prompt Showdown (GDG)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Mystery Coding">
+          <span class="text-white text-sm">Mystery Coding – Guess the Function (CSI)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="3D CAD Design Sprint">
+          <span class="text-white text-sm">3D CAD Design Sprint (IEEE)</span>
+        </label>
+
+      </div>
+    </div>
+
+    <!-- CULTURAL EVENTS -->
+    <div class="event-group bg-white/5 border border-white/10 rounded-lg overflow-hidden">
+      <button type="button"
+        class="w-full flex justify-between items-center px-4 py-3 text-left text-white text-lg font-semibold
+        bg-white/5 hover:bg-white/10 transition groupBtn">
+        Cultural Events <span class="text-white/60">▼</span>
+      </button>
+
+      <div class="hidden px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-4 groupContent">
+
+        <!-- Day 2 -->
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Open Mic">
+          <span class="text-white text-sm">Open Mic</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Short Advertisement Making">
+          <span class="text-white text-sm">Short Advertisement Making</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Debate">
+          <span class="text-white text-sm">Debate</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Treasure Hunt">
+          <span class="text-white text-sm">Treasure Hunt</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Art & Craft Exhibition">
+          <span class="text-white text-sm">Art & Craft Exhibition + Stone Painting</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Bollywood Moot Court">
+          <span class="text-white text-sm">Bollywood Moot Court</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Poetry Competition">
+          <span class="text-white text-sm">Poetry Competition</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Tattoo Making">
+          <span class="text-white text-sm">Tattoo Making</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Music Battle">
+          <span class="text-white text-sm">Music Battle</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Dance Competition">
+          <span class="text-white text-sm">Dance Competition</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Fashion Thrift Flip">
+          <span class="text-white text-sm">Fashion Thrift Flip</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Food Stalls">
+          <span class="text-white text-sm">Food Stalls</span>
+        </label>
+
+        <!-- DAY 3 -->
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Morning Rave">
+          <span class="text-white text-sm">Morning Rave</span>
+        </label>
+
+      </div>
+    </div>
+
+    <!-- LAW GROUP -->
+    <div class="event-group bg-white/5 border border-white/10 rounded-lg overflow-hidden">
+      <button type="button"
+        class="w-full flex justify-between items-center px-4 py-3 text-left text-white text-lg font-semibold
+        bg-white/5 hover:bg-white/10 transition groupBtn">
+        Law School Events <span class="text-white/60">▼</span>
+      </button>
+
+      <div class="hidden px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-4 groupContent">
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Case Law Treasure Hunt">
+          <span class="text-white text-sm">Case Law Treasure Hunt</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Client Counselling">
+          <span class="text-white text-sm">Client Counselling – Legal Role Play</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Bollywood Moot Court">
+          <span class="text-white text-sm">Bollywood Moot Court</span>
+        </label>
+
+      </div>
+    </div>
+
+    <!-- MANAGEMENT GROUP -->
+    <div class="event-group bg-white/5 border border-white/10 rounded-lg overflow-hidden">
+      <button type="button"
+        class="w-full flex justify-between items-center px-4 py-3 text-left text-white text-lg font-semibold
+        bg-white/5 hover:bg-white/10 transition groupBtn">
+        Management Events <span class="text-white/60">▼</span>
+      </button>
+
+      <div class="hidden px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-4 groupContent">
+
+        <!-- MBA/BBA -->
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Brain Twister">
+          <span class="text-white text-sm">Brain Twister (MBA/BBA)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Tehkikaat">
+          <span class="text-white text-sm">Tehkikaat (MBA/BBA)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="JAM Competition">
+          <span class="text-white text-sm">JAM — Extempore (MBA/BBA)</span>
+        </label>
+
+        <!-- BCOM -->
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Mock Shark Tank">
+          <span class="text-white text-sm">Mock Shark Tank (BCOM)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Brand War">
+          <span class="text-white text-sm">Brand War (BCOM)</span>
+        </label>
+
+        <label class="flex items-center gap-3 event-card">
+          <input type="checkbox" name="events[]" value="Budget Battle">
+          <span class="text-white text-sm">Budget Battle (BCOM)</span>
+        </label>
+
+      </div>
+    </div>
+
   </div>
-</section>
+</div>
+<button type="submit" class="w-full flex justify-center py-3 px-4 rounded-lg bg-[var(--primary)] text-white text-sm font-bold tracking-wide hover:bg-blue-500 transition-all box-glow mt-4"> Register </button> </form> <p id="formMsg" class="mt-4 text-sm text-white/70 hidden"></p> </div> </section>
 
 <!-- ACCORDION SCRIPT -->
 <script>
@@ -977,6 +1053,7 @@
     });
   });
 </script>
+
 
 <!-- GOOGLE SHEET FORM SUBMIT -->
 <script>
